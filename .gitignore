@@ -1,0 +1,55 @@
+# 视频与音频素材
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.wmv
+*.flv
+*.wav
+*.mp3
+*.aac
+*.flac
+*.m4a
+*.ogg
+
+# 字体与安装包
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.eot
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+
+# 大体积或可再生成文件
+*.bin
+*.cache
+*.tmp
+*.temp
+*.log
+*.pem
+*.key
+
+# 缓存、依赖和系统文件
+node_modules/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地环境与密钥
+.env
+.env.*
+!.env.example
+
+# 剪映可能产生的临时工程文件
+*.lock
+*.bak
+*.autosave
